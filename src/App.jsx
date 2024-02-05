@@ -1,8 +1,11 @@
 import { LoginInSide } from "./components/LoginInSide";
-import "./App.css";
 
 function App() {
-  return <LoginInSide />;
+  return (
+    <>
+      <LoginInSide />
+    </>
+  );
 }
 
 export default App;
